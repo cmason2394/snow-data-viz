@@ -14,7 +14,7 @@ As a ski/snowboard instructor, I have a direct personal and professional stake i
 
 ### What this project does
 This project cleans and transforms ten years of NOAA snow monitoring data (2015–2025) for Colorado and turns it into an interactive Tableau dashboard, letting users explore snowfall and snow depth trends by year, county, and weather station.
-_Note_: Data is limited to March each year, as a proof of concept and because March is generally a high-snow month and a useful proxy for spring runoff.
+_Note: Data is limited to March each year, as a proof of concept and because March is generally a high-snow month and a useful proxy for spring runoff._
 
 ### Impact
 The dashboard explores year-to-year and regional variation in snowpack that's hard to see in raw station data, which is relevant to the ski industry and to the ecology and water resource planning of the Colorado River Basin, particularly in the context of climate change.
@@ -35,11 +35,16 @@ The dashboard explores year-to-year and regional variation in snowpack that's ha
 
 ## **Features**
 **Integrated dashboard** (Yearly Data View, Box and Whisker Plots, Heat Map):
+![Dashboard Overview](docs/images/dashboard-overview.png)
 - Yearly view: dual-axis bar chart of snowfall and snowpack by year, filterable by location level (statewide/county/station) and aggregation (total/average/min/max)
+![Yearly View](docs/images/yearly-view.png)
 - Box and whisker plots showing the center and distribution of snowfall and snowpack per year, using the same location-level filter as the yearly view
+![Box and Whisker](docs/images/box-and-whisker.png)
 - County-level heat map of snowfall/snow depth intensity for a selected year, with tooltips showing county, year, measure (snowfall or snowpack), and aggregation type
+![Heat Map](docs/images/heat-map.png)
 
-_Note: A fourth visualization — a daily data view for March, averaged across all Colorado weather stations — exists in the underlying workbook but is not currently published/viewable on Tableau Public. See Known Limitations._
+_Note: A fourth visualization — a daily data view for March, averaged across all Colorado weather stations and highlighting the least and most snowfall and snowpack days — exists in the underlying workbook but is not currently published/viewable on Tableau Public. See Known Limitations._
+![Daily View](docs/images/daily-view.png)
 
 ## **Built With**
 - Python 3.10
