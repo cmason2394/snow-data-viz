@@ -21,7 +21,7 @@ The dashboard explores year-to-year and regional variation in snowpack that's ha
 
 ## **Demo**
 
-**[View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/cassandra.mason/viz/IP5-snow-dashboard/Dashboard1)**
+**[View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/cassandra.mason/viz/IP5-snow-dashboard/SnowViz)**
 
 ## **Data Pipeline**
 
@@ -59,7 +59,6 @@ _Note: A fourth visualization — a daily data view for March, averaged across a
 ## **Known Limitations**
 - The daily data view (see Future Features) is built but not published. Tableau Public currently only exposes the integrated dashboard, not standalone sheets
 - Selecting a year sometimes triggers a "too much data, try filtering further" warning that doesn't reliably reappear on retry. Filtering/performance issue still being debugged
-- Some filter controls overlap dashboard text, and some text boxes are cut off, making certain labels hard to read. Layout cleanup planned
 - The dual-axis bar chart uses the same color scheme for the two axes as the heat map uses for intensity, which is confusing. Plan to change to distinct colors with a legend indicating which color belongs to which axis
 - The "Weather Station" location-level filter (Yearly View and Box and Whisker Plots) doesn't render any data
 - The heat map's base depth calculation isn't working correctly (every county renders at the lightest color, no tooltip value)
